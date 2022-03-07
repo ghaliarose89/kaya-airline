@@ -1,0 +1,23 @@
+.filter {
+  margin-top: 73px;
+
+  h4 {
+    margin: 0;
+  }
+}
+
+.checkboxes {
+  margin-top: 23px;
+  
+  label {
+    font-size: 14px;
+    margin-right: 24px;  
+  }
+  
+  input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    vertical-align:middle;
+  }  
+}
