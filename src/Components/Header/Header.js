@@ -1,5 +1,5 @@
-import logo from "../Utils/Logo.svg";
-import "../Utils/header.scss";
+import logo from "../../Utils/Logo.svg";
+import "./header.scss";
 
 export default function Header() {
   return (

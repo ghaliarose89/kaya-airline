@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useCallback } from "react";
 import jsonp from "jsonp";
 import './App.scss';
-import AirLines from "./Components/Airlines/index";
-import Filter from "./Components/Filter";
-import Header from "./Components/Header";
+import AirLines from "./Components/Airlines/Airlines";
+import Filter from "./Components/Filter/Filter";
+import Header from "./Components/Header/Header";
 function App() {
   const [airlineList, setAirlineList] = useState([]);
   const [activeAlliances, setActiveAlliances] = useState([]);
