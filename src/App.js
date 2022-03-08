@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from "react";
 import jsonp from "jsonp";
 import './App.scss';
-import AirLines from "./Components/AirLines";
+import AirLines from "./Components/Airlines/index";
 import Filter from "./Components/Filter";
 import Header from "./Components/Header";
 function App() {

@@ -1,4 +1,4 @@
-import '../Utils/airlines.scss'
+import './airlines.scss'
 import React from 'react';
 
 
